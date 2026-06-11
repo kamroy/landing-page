@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RYK Consulting — Platform Engineering &amp; DevEx</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="grid-overlay" aria-hidden="true"></div>
+
+<header class="site-header">
+  <a href="#" class="logo">RYK<span class="logo-dot">·</span></a>
+  <nav class="main-nav" aria-label="Principal">
+    <a href="#about">À propos</a>
+    <a href="#services">Services</a>
+    <a href="#approach">Approche</a>
+    <a href="#results">Résultats</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <a href="#contact" class="btn btn-ghost nav-cta">Démarrer un échange</a>
+</header>
+
+<main>
+
+  <section class="hero">
+    <div class="hero-text">
+      <p class="eyebrow">RYK Consulting — Platform Engineering &amp; DevEx</p>
+      <h1>Moins de tickets.<br>Plus de livraisons.</h1>
+      <p class="lede">
+        Nous concevons et opérons les plateformes internes (IDP), les
+        clusters Kubernetes et les pipelines GitLab CI/CD qui donnent à vos
+        équipes l'autonomie — du commit à la production, sans attendre un
+        ticket.
+      </p>
+      <div class="hero-actions">
+        <a href="#contact" class="btn btn-primary">Réserver un audit de plateforme</a>
+        <a href="#approach" class="btn btn-text">Découvrir notre méthode →</a>
+      </div>
+    </div>
+
+    <div class="console" role="img" aria-label="Sortie simulée d'un audit de plateforme : démarrage de l'audit, scan de 8 clusters Kubernetes, scan de 64 pipelines GitLab CI, cartographie de 212 services dans le catalogue Backstage, signalement d'un manque de golden paths sur 70% des services, signalement d'un délai de déploiement de 4,2 jours, et production d'un plan DevEx.">
+      <div class="console-bar">
+        <span class="console-dot"></span>
+        <span class="console-title">audit-plateforme.log</span>
+      </div>
+      <pre class="console-body" id="console-body" aria-hidden="true"></pre>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="about-text">
+      <p class="eyebrow">Profil — Fondateur</p>
+      <h2>Derrière RYK Consulting.</h2>
+      <p class="lede">
+        Romeo Kameni conçoit et opère des plateformes internes pour des
+        équipes d'ingénierie qui veulent livrer plus vite sans sacrifier la
+        fiabilité. Spécialiste Kubernetes, GitLab CI/CD et Backstage, il a
+        construit sa pratique sur une conviction simple&nbsp;: la meilleure
+        plateforme est celle qu'on oublie, parce qu'elle ne se met jamais en
+        travers du chemin des développeurs.
+      </p>
+    </div>
+
+    <div class="profile-card">
+      <div class="console-bar">
+        <span class="console-dot"></span>
+        <span class="console-title">profil.json</span>
+      </div>
+      <dl class="profile-fields">
+        <div class="profile-row">
+          <dt>Nom</dt>
+          <dd>Romeo Kameni</dd>
+        </div>
+        <div class="profile-row">
+          <dt>Rôle</dt>
+          <dd>Platform Engineer &amp; DevEx Specialist</dd>
+        </div>
+        <div class="profile-row">
+          <dt>Stack</dt>
+          <dd>Kubernetes · GitLab CI/CD · Backstage</dd>
+        </div>
+        <div class="profile-row">
+          <dt>Approche</dt>
+          <dd>Cloud native, IDP, golden paths</dd>
+        </div>
+        <div class="profile-row">
+          <dt>Full-stack</dt>
+          <dd>React · Spring Boot · Node.js · PostgreSQL</dd>
+        </div>
+        <div class="profile-row">
+          <dt>Conviction</dt>
+          <dd>Une plateforme invisible vaut mieux qu'une plateforme documentée.</dd>
+        </div>
+        <div class="profile-row">
+          <dt>Profils</dt>
+          <dd class="profile-links">
+            <a href="https://www.linkedin.com/in/romeo-kameni" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+            <a href="https://github.com/kamroy" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+          </dd>
+        </div>
+      </dl>
+    </div>
+  </section>
+
+  <section class="services" id="services">
+    <div class="section-head">
+      <p class="eyebrow">Spécification — Services</p>
+      <h2>Ce que nous faisons, noir sur blanc.</h2>
+    </div>
+
+    <div class="spec-grid">
+      <article class="spec-card">
+        <p class="spec-code">SPEC / IDP&#8209;01</p>
+        <h3>Plateforme interne (Backstage)</h3>
+        <p>Conception et déploiement de votre Internal Developer Platform
+        sur Backstage — catalogue de services, templates, golden paths —
+        pour que chaque équipe avance sans dépendre de la plateforme.</p>
+      </article>
+
+      <article class="spec-card">
+        <p class="spec-code">SPEC / K8S&#8209;02</p>
+        <h3>Kubernetes &amp; Cloud Native</h3>
+        <p>Architecture, durcissement et exploitation de vos clusters
+        Kubernetes — multi-tenant, observabilité et coûts maîtrisés, sans
+        point de défaillance unique.</p>
+      </article>
+
+      <article class="spec-card">
+        <p class="spec-code">SPEC / CI&#8209;03</p>
+        <h3>CI/CD GitLab</h3>
+        <p>Pipelines GitLab CI/CD rapides, fiables et standardisés — du
+        commit à la prod, avec des temps de build et de déploiement qui
+        tiennent à l'échelle.</p>
+      </article>
+
+      <article class="spec-card">
+        <p class="spec-code">SPEC / DEVEX&#8209;04</p>
+        <h3>Developer Experience</h3>
+        <p>Mesure et amélioration de l'expérience développeur — onboarding,
+        temps de build, friction outillage : ce qui ralentit vraiment vos
+        équipes.</p>
+      </article>
+
+      <article class="spec-card spec-card-wide">
+        <p class="spec-code">SPEC / DEV&#8209;05</p>
+        <h3>Développement logiciel full-stack</h3>
+        <p>Au-delà de la plateforme, nous développons aussi les applications
+        qui tournent dessus — back-ends Spring Boot et Node.js, API, et
+        interfaces React, sur des bases de données PostgreSQL — pour livrer
+        un produit de bout en bout, pas seulement l'infrastructure qui le
+        porte.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="approach" id="approach">
+    <div class="section-head">
+      <p class="eyebrow">Mission — Séquence</p>
+      <h2>Le déroulement d'une mission.</h2>
+    </div>
+
+    <ol class="stage-list">
+      <li class="stage">
+        <p class="stage-num">01</p>
+        <h3>Évaluer</h3>
+        <p>Audit de votre chaîne d'outils actuelle — clusters, pipelines,
+        catalogue de services — et mesure des indicateurs DevEx : lead time,
+        fréquence de déploiement, MTTR.</p>
+      </li>
+      <li class="stage">
+        <p class="stage-num">02</p>
+        <h3>Concevoir</h3>
+        <p>Conception de la plateforme cible : golden paths, structure du
+        catalogue Backstage, architecture Kubernetes, pipelines GitLab
+        standardisés.</p>
+      </li>
+      <li class="stage">
+        <p class="stage-num">03</p>
+        <h3>Mettre en œuvre</h3>
+        <p>Implémentation aux côtés de votre équipe plateforme — Backstage,
+        Kubernetes, CI/CD — livrée par incréments directement en
+        production.</p>
+      </li>
+      <li class="stage">
+        <p class="stage-num">04</p>
+        <h3>Exploiter</h3>
+        <p>Transfert de compétences, documentation et accompagnement continu
+        pour faire vivre la plateforme et ses golden paths.</p>
+      </li>
+    </ol>
+  </section>
+
+  <section class="results" id="results">
+    <div class="section-head">
+      <p class="eyebrow">Bilan — Résultats</p>
+      <h2>Mesuré, pas promis.</h2>
+    </div>
+
+    <div class="meter-grid">
+      <div class="meter">
+        <p class="meter-value">12<span class="meter-unit">ans</span></p>
+        <p class="meter-label">En plateforme &amp; cloud native</p>
+      </div>
+      <div class="meter">
+        <p class="meter-value">140<span class="meter-unit">+</span></p>
+        <p class="meter-label">Clusters &amp; pipelines audités</p>
+      </div>
+      <div class="meter">
+        <p class="meter-value">x4</p>
+        <p class="meter-label">Fréquence de déploiement après IDP</p>
+      </div>
+      <div class="meter">
+        <p class="meter-value">-70<span class="meter-unit">%</span></p>
+        <p class="meter-label">Temps d'onboarding développeur</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta" id="contact">
+    <div class="cta-inner">
+      <p class="eyebrow">Contact</p>
+      <h2>Regardons ce qui<br>tourne vraiment.</h2>
+      <p class="lede">
+        Envoyez-nous un mot sur votre plateforme, vos clusters Kubernetes ou
+        vos pipelines GitLab CI/CD. Nous répondons sous un jour ouvré.
+      </p>
+      <a href="mailto:hello@rykconsulting.com" class="btn btn-primary">hello@rykconsulting.com</a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="title-block">
+    <div class="tb-cell tb-name">
+      <p class="tb-label">Cabinet</p>
+      <p class="tb-value">RYK Consulting</p>
+    </div>
+    <div class="tb-cell">
+      <p class="tb-label">Discipline</p>
+      <p class="tb-value">Platform Engineering &amp; DevEx</p>
+    </div>
+    <div class="tb-cell">
+      <p class="tb-label">Modalité</p>
+      <p class="tb-value">Sur site et à distance</p>
+    </div>
+    <div class="tb-cell">
+      <p class="tb-label">Rév.</p>
+      <p class="tb-value">2026</p>
+    </div>
+  </div>
+  <p class="copyright">© 2026 RYK Consulting. Tous droits réservés.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
